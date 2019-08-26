@@ -11,6 +11,7 @@ public class Card {
 	private static ArrayList<Card> cards = new ArrayList<Card>();
 
 	// Card建構子123
+	//ellen test2
 	public Card(String mask, int value, int icon, String iconMask, boolean isShow) {
 		this.mask = mask;
 		this.value = value;
@@ -18,7 +19,7 @@ public class Card {
 		this.iconMask = iconMask;
 		this.isShow = isShow;
 	}
-
+	//測試
 	// 洗牌
 	public static void shuffleDeck(ArrayList<Card> card) {
 		Collections.shuffle(card);
