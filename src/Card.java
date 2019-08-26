@@ -10,7 +10,7 @@ public class Card {
 	private boolean isShow;
 	private static ArrayList<Card> cards = new ArrayList<Card>();
 
-	// Card建構子
+	// Card建構子123
 	public Card(String mask, int value, int icon, String iconMask, boolean isShow) {
 		this.mask = mask;
 		this.value = value;
