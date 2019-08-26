@@ -20,7 +20,7 @@ public class Card {
 		this.isShow = isShow;
 	}
 	//測試
-	//測試二二二
+	//測試五五五
 	// 洗牌
 	public static void shuffleDeck(ArrayList<Card> card) {
 		Collections.shuffle(card);
